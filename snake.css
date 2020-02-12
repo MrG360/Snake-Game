@@ -1,0 +1,33 @@
+#main{
+   
+    background-color: aqua;
+    height: 600px;
+    width: 600px;
+    position: relative; 
+    /* top:50px;
+    left:450px; */
+      
+}
+#snake{
+    /* left:100px; */
+    background-color: green;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    z-index: 100;
+    border-radius: 20px;
+}
+#food{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 20px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
